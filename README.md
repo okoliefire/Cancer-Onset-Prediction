@@ -4,7 +4,7 @@
 
 This project investigates the application of mathematical modelling and machine learning to cancer onset prediction using historical outpatient data from Lagos State University Teaching Hospital (LASUTH), Nigeria.
 
-The study evaluates three classification algorithms—Naïve Bayes (NB), Logistic Regression (LR), and k-Nearest Neighbours (k-NN)—to examine their effectiveness in classifying cancer cases using demographic and clinical variables. The models were evaluated using a 15-year dataset comprising over 1,700 patient records.
+The study evaluates three classification algorithms Naïve Bayes (NB), Logistic Regression (LR), and k-Nearest Neighbours (k-NN)—to examine their effectiveness in classifying cancer cases using demographic and clinical variables. The models were evaluated using a 15-year dataset comprising over 1,700 patient records.
 
 ## Research Objectives
 
