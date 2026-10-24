@@ -21,7 +21,7 @@ Logistic Regression demonstrated balanced and interpretable performance, achievi
 
 ### 2. Naïve Bayes (NB)
 
-Naïve Bayes achieved the highest recall of 86% in the original analysis, highlighting its potential relevance for further investigation in screening-oriented research.
+Naïve Bayes achieved the highest recall of 86% in the original analysis, highlighting its potential relevance for further investigation in screening oriented research.
 
 ### 3. k Nearest Neighbours (kNN)
 
