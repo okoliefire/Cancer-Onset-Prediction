@@ -46,7 +46,7 @@ The study compared Logistic Regression, Naïve Bayes, and k Nearest Neighbours u
 - **Accuracy:** 84%
 - **Precision:** 86%
 - **Recall:** 82%
-- **F1-score:** 84%
+- **F1 score:** 84%
 - **ROC-AUC:** 0.89
 
 Logistic Regression achieved the most balanced overall performance among the evaluated models.
