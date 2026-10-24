@@ -4,13 +4,13 @@
 
 This project investigates the application of mathematical modelling and machine learning to cancer onset prediction using historical outpatient data from Lagos State University Teaching Hospital (LASUTH), Nigeria.
 
-The study evaluates three classification algorithms—Naïve Bayes (NB), Logistic Regression (LR), and k-Nearest Neighbours (k-NN)—to examine their effectiveness in classifying cancer cases using demographic and clinical variables. The models were evaluated using a 15-year dataset comprising over 1,700 patient records.
+The study evaluates three classification algorithms Naïve Bayes (NB), Logistic Regression (LR), and k Nearest Neighbours (kNN)to examine their effectiveness in classifying cancer cases using demographic and clinical variables. The models were evaluated using a 15 year dataset comprising over 1,700 patient records.
 
 ## Research Objectives
 
 - Investigate the application of mathematical modelling to healthcare analytics.
 - Develop and evaluate machine learning models for cancer onset prediction.
-- Compare model performance using accuracy, precision, recall, F1-score, and ROC-AUC.
+- Compare model performance using accuracy, precision, recall, F1score, and ROC-AUC.
 - Examine the strengths and limitations of different classification algorithms in healthcare research.
 
 ## Models Evaluated
@@ -23,9 +23,9 @@ Logistic Regression demonstrated balanced and interpretable performance, achievi
 
 Naïve Bayes achieved the highest recall of 86% in the original analysis, highlighting its potential relevance for further investigation in screening-oriented research.
 
-### 3. k-Nearest Neighbours (k-NN)
+### 3. k Nearest Neighbours (kNN)
 
-k-NN was evaluated as an additional classification approach. Its performance was comparatively weaker in this study. Sensitivity to noise and the representation of categorical variables were identified as relevant considerations.
+kNN was evaluated as an additional classification approach. Its performance was comparatively weaker in this study. Sensitivity to noise and the representation of categorical variables were identified as relevant considerations.
 
 ## Evaluation Metrics
 
@@ -34,12 +34,12 @@ The models were assessed using the following metrics:
 - Accuracy
 - Precision
 - Recall
-- F1-score
+- F1 score
 - ROC-AUC
 
 ## Model Performance and Key Findings
 
-The study compared Logistic Regression, Naïve Bayes, and k-Nearest Neighbours using historical patient data from LASUTH.
+The study compared Logistic Regression, Naïve Bayes, and k Nearest Neighbours using historical patient data from LASUTH.
 
 ### Logistic Regression (LR)
 
@@ -58,7 +58,7 @@ Logistic Regression achieved the most balanced overall performance among the eva
 
 Naïve Bayes achieved the highest recall among the evaluated models.
 
-### k-Nearest Neighbours (k-NN)
+### k Nearest Neighbours (kNN)
 
 - **Accuracy:** 78%
 - **Precision:** 76%
@@ -66,11 +66,11 @@ Naïve Bayes achieved the highest recall among the evaluated models.
 - **F1-score:** 77%
 - **ROC-AUC:** 0.83
 
-k-NN recorded comparatively weaker performance, suggesting that preprocessing and feature representation warrant further investigation.
+kNN recorded comparatively weaker performance, suggesting that preprocessing and feature representation warrant further investigation.
 
 ### Comparative Findings
 
-- **Logistic Regression:** Best-balanced overall performance among the evaluated models.
+- **Logistic Regression:** Best balanced overall performance among the evaluated models.
 - **Naïve Bayes:** Highest recall among the evaluated models.
 - **k-NN:** Comparatively weaker performance in this study.
 
@@ -82,20 +82,20 @@ These results reflect the original analysis and do not establish that any model 
 - Jupyter Notebook
 - pandas
 - NumPy
-- scikit-learn
+- scikit learn
 - Matplotlib
 - Seaborn
 
 ## Repository Contents
 
-- `cancer_onset_prediction.ipynb` — Jupyter Notebook containing the modelling workflow, analysis, visualisations, and results.
-- `requirements.txt` — Python dependencies required to support the analysis.
+- `cancer_onset_prediction.ipynb` Jupyter Notebook containing the modelling workflow, analysis, visualisations, and results.
+- `requirements.txt`  Python dependencies required to support the analysis.
 
 ## Dataset and Reproducibility
 
 The original dataset comprises over 1,700 outpatient records spanning 15 years. The dataset is not included in this repository.
 
-Reproducing the original analysis requires authorised access to the dataset and the necessary Python environment. Patient confidentiality and applicable data-protection requirements must be respected.
+Reproducing the original analysis requires authorised access to the dataset and the necessary Python environment. Patient confidentiality and applicable data protection requirements must be respected.
 
 ## Research Significance
 
