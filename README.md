@@ -63,7 +63,7 @@ Naïve Bayes achieved the highest recall among the evaluated models.
 - **Accuracy:** 78%
 - **Precision:** 76%
 - **Recall:** 79%
-- **F1-score:** 77%
+- **F1 score:** 77%
 - **ROC-AUC:** 0.83
 
 kNN recorded comparatively weaker performance, suggesting that preprocessing and feature representation warrant further investigation.
